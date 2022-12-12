@@ -1,0 +1,72 @@
+
+.navbar{
+    background:orange;
+
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subnav{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.topics{
+    display: grid;
+  grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+width: 90%;
+/* border: 1px solid red; */
+margin: 1rem auto;
+}
+.topicimg{
+    width: 100%;
+    align-content: center;
+    height: 85%;
+    
+    
+}
+.topic1{
+    width: 260px;
+    height: 350px;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    
+    color:orange;
+
+    text-shadow:black
+    
+}
+.link{
+    text-decoration: none;
+}
+/* single */
+.single{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin:2rem  auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 1rem;
+
+}
+.single img{
+ 
+    height: 600px;
+}
+button{
+    background: none;
+    border: none;
+}
